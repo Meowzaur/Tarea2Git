@@ -17,8 +17,10 @@ public class arrays {
 		array[2] = teclea.nextInt();
 		
 		x = array[2] - array[0] - array[1];
-		
 		System.out.println("El resultado es: " + x);
+		
+		x = array[0] + array[1] + array[2];
+		System.out.println("La suma es: " + x);
 		
 		teclea.close();
 
