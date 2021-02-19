@@ -21,6 +21,15 @@ public class arrays {
 		
 		x = array[0] + array[1] + array[2];
 		System.out.println("La suma es: " + x);
+
+		x = array[0] * array[1] * array[2];
+		System.out.println("La multiplicación es: " + x);
+		
+		if (x > 50) {
+			System.out.println("¡Guau!");
+		} else {
+			System.out.println("Meh...");
+		}
 		
 		teclea.close();
 
